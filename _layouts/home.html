@@ -4,62 +4,69 @@ layout: default
 
 <div class="home">
   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
+  <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
   {{ content }}
 
 
   {% if site.paginate %}
-    {% assign posts = paginator.posts %}
+  {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts %}
-    {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
+  {% assign posts = site.posts %}
+  {% assign postsByYear = site.posts | group_by_exp:"post", "post.date | date: '%Y'" %}
   {% endif %}
 
 
   {%- if posts.size > 0 -%}
-    {%- if page.list_title -%}
-      <h2 class="post-list-heading">{{ page.list_title }}</h2>
-    {%- endif -%}
-    <ul class="post-list">
-      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-      {% for year in postsByYear %}
-  <h1>{{ year.name }}</h1>
-  {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
+  {%- if page.list_title -%}
+  <h2 class="post-list-heading">{{ page.list_title }}</h2>
+  {%- endif -%}
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {% for year in postsByYear %}
+    <h1>{{ year.name }}</h1>
+    {% assign postsByMonth = year.items | group_by_exp:"post", "post.date | date: '%B'" %}
 
-{% for month in postsByMonth %}
-<h2>{{ month.name }}</h2>
-<ul>
-  {% for post in month.items %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <br>{{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
-
-{% endfor %}
-{% endfor %}
+    {% for month in postsByMonth %}
+    <h2>{{ month.name }}</h2>
+    <ul>
+      {% for post in month.items %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <br>{{ post.excerpt }}
+      </li>
+      {% endfor %}
     </ul>
 
-    {% if site.paginate %}
-      <div class="pager">
-        <ul class="pagination">
-        {%- if paginator.previous_page %}
-          <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-          <li><div class="current-page">{{ paginator.page }}</div></li>
-        {%- if paginator.next_page %}
-          <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-        {%- else %}
-          <li><div class="pager-edge">•</div></li>
-        {%- endif %}
-        </ul>
-      </div>
-    {%- endif %}
+    {% endfor %}
+    {% endfor %}
+  </ul>
+
+  {% if site.paginate %}
+  <div class="pager">
+    <ul class="pagination">
+      {%- if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page
+          }}</a></li>
+      {%- else %}
+      <li>
+        <div class="pager-edge">•</div>
+      </li>
+      {%- endif %}
+      <li>
+        <div class="current-page">{{ paginator.page }}</div>
+      </li>
+      {%- if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+      {%- else %}
+      <li>
+        <div class="pager-edge">•</div>
+      </li>
+      {%- endif %}
+    </ul>
+  </div>
+  {%- endif %}
 
   {%- endif -%}
 
