@@ -1,7 +1,7 @@
 ---
 title: 'Numerical simulation: ODE/PDE solver and spin-up'
 date: 2017-09-01
-permalink: /posts/2017/09/01/ode-pde-and-spin-up
+permalink: /posts/2017/09/01/ode-pde-and-spin-up/
 tags:
   - ODE
   - PDE
