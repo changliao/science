@@ -8,25 +8,31 @@ tags:
   - Hydrology
   - Numerical
 ---
-For Earth Science model development, I inevitably have to deal with ODE and PDE equations. I also have come across some discussion related to this topic, i.e.,
-https://www.researchgate.net/post/What_does_one_mean_by_Model_Spin_Up_Time
+For Earth Science model development, I inevitably have to deal with ODE and PDE equations. I also have come across some discussion related to this 
+[Researchgate Question](https://www.researchgate.net/post/What_does_one_mean_by_Model_Spin_Up_Time).
+
 
 In an attempt to answer this question, as well as redefine the problem I am dealing with, I decided to organize some materials to illustrate our current state on this topic.
 
 Models are essentially equations. In Earth Science, these equations are usually ODE or PDE. So I want to discuss this from a mathematical perspective.
 
-Ideally, we want to solve these ODE/PDE with initial condition (IC) and boundary condition (BC) using various numerical methods.
-https://en.wikipedia.org/wiki/Initial_value_problem
-https://en.wikipedia.org/wiki/Boundary_value_problem
+Ideally, we want to solve these ODE/PDE with initial condition (IC) and boundary condition (BC) using various numerical methods:
+
+[Initial_value_problem](https://en.wikipedia.org/wiki/Initial_value_problem).
+
+[Boundary_value_problem](https://en.wikipedia.org/wiki/Boundary_value_problem).
+
 
 Because of the nature of geology, everything is similar to its neighbors. So we can construct a system of equations which may have multiple equation for each single grid cell. Now we have an array of equations with the same number of knowns and unknowns. We can solve them simultaneously using numerical methods. In this case, we are not using “spin-up” at all. In fact, lots of models do not use spin-up to reach steady state, e.g., three-dimensional groundwater model MODFLOW.
 
 For example, let's imagine a single cube and corresponding model in space as below:
 
 ![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/cube.png?raw=true)
+
 \begin{equation}
 \frac{ \partial Q }{ \partial t } = f(Q) + f(w) + ... + Source - Sink
 \end{equation}
+
 where $Q$ is unknown system state variable, i.e., storage;
 $f(Q)$ is storage related process;
 $f(w)$ is other processes;
@@ -34,11 +40,13 @@ $Source$ is source;
 and $Sink$ is sink.
 
 In most cases, the $f(Q)$ depends on local gradient, which means that:
+
 \begin{equation}
 f(Q) = f(Q_{i,j}, Q_{i-1,j}, ...)
 \end{equation}
 
 With certain boundary condition (BC), we can write an array of equations:
+
 \begin{equation} \label{equ:matrix}
 \begin{bmatrix}
       \frac{ \partial Q_{0,0} }{ \partial t }  \\[0.3em]
