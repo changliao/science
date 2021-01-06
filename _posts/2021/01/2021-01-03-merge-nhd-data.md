@@ -38,9 +38,11 @@ In the shapefile attribute table, we can add two fields to define the stream seg
 Ideally, we can break the whole line feature into parts then re-build the topology.
 
 The follow steps may work:
-1. Merge all flowline together
-2. Merge features into one single feature
-3. Remove erros in line feature, mainly loops
+1. Remove erros in line feature, mainly loops
+    * loop
+    * short path
+2. Merge all flowline together
+3. Merge features into one single feature
 4. Break into parts
 5. Define outlet (this step might need DEM)
 6. Define segment
@@ -50,5 +52,5 @@ The follow steps may work:
 We might be able to add other attributes later if needed.
 
 If possbile, we can implement all the steps within Python without using ArcGIS API.
-However, step 3 requires manual examination, so we can try ArcGIS first. Or we can remove error at step 0, then the following steps can be carried out using Python.
+However, step 1 requires manual examination, so we can try ArcGIS first. Then the following steps can be carried out using Python.
 
