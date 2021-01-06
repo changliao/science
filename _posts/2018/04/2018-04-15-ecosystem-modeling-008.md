@@ -19,7 +19,7 @@ Iwas recently upgrading some components within the ECO3D model, specifically the
 
 The overall scheme of these components are illustrated in Figure 1:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/carbon_pool_flux.png?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/eco3d/carbon_pool_flux.png?raw=true)
 
 Figure 1. The carbon pool and flux.
 
@@ -29,7 +29,7 @@ Without considering wildfire, etc., disturbance, "respiration" is generally cons
 
 In most terrestrial ecosystem modeling, respiration is broken into autotrophic respiration and heterotrophic respiration (Figure 2).
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/respiration.png?raw=true)
+![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/eco3d/respiration.png?raw=true)
 
 Figure 2. Respiration in terrestrial ecosystem.
 Fundamentally, respiration is a biological and biochemical process occurs in cellular level. And it is assumed to convert organic component to energy, which the opposite process of photosynthesis.

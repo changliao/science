@@ -30,12 +30,12 @@ From 1D to 3D means that each grid is aware of its neighborhood. More importantl
 To put it in the model language, traditionally, each grid is isolated from others, so water and carbon budget are calculated in each grid independently. In 3D, a grid can send or receive some water and carbon from neighborhood. It’s like a grid at mountain valley can receive water from mountain ridge. Isn’t that making much more sense?
 On land, each grid cell can connect to its 4/6/8 neighbors:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/flow_cascade.jpg?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/eco3d/flow_cascade.png?raw=true)
 
 
 They can also connect with river:
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/land_river_interaction.jpg?raw=true)
+![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/eco3d/land_river_interaction.png?raw=true)
 
 
 Water can carry lots of stuff, including carbon in the dissolved mode. Water can also carry other stuff such as sediment and debris. 
@@ -48,7 +48,7 @@ How to implement a 3D approach is another story, in ECO3D, we used a method wide
 
 We also introduced a brand new DOC model, DOC is one of the carbon that flows with water, apparently. This is currently the only litter DOC model that considers lateral flow.
 
-![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/litter_doc.jpg?raw=true)
+![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/eco3d/litter_doc.png?raw=true)
 
 Currently we haven’t consider the DOC in the groundwater system.
 

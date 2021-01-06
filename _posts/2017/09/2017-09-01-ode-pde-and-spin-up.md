@@ -27,7 +27,7 @@ Because of the nature of geology, everything is similar to its neighbors. So we 
 
 For example, let's imagine a single cube and corresponding model in space as below:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/cube.png?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/mathematics/cube.png?raw=true)
 
 \begin{equation}
 \frac{ \partial Q }{ \partial t } = f(Q) + f(w) + ... + Source - Sink
@@ -70,14 +70,14 @@ However, even for iterative solver, it can take a long computing time to find a 
 
 Regardless of the initial condition, the system will gradually converge to "steady state". For example, regardless how much water is stored in the tank initially, the water will reach the same level after certain time when inflow equals outflow.
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/water_tank.png?raw=true)
+![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/mathematics/water_tank.png?raw=true)
 You can easily setup much complicated scenarios similar to:
 
-![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/ode_pde.png?raw=true)
+![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/mathematics/ode_pde.png?raw=true)
 
 When you have multiple pools and flux terms, the system may become very sensitive to certain parameters.
 
-![Figure 4](https://github.com/changliao/changliao.github.io/blob/main/_figure/ode_simulator.gif?raw=true)
+![Figure 4](https://github.com/changliao/changliao.github.io/blob/main/_figure/mathematics/ode_simulator.gif?raw=true)
 
 Illustration of ODE with 8 buckets. Each bucket is contributing water into other buckets at different rates. Each bucket has different storage capacity and radius.
 
@@ -88,7 +88,7 @@ The criteria which is used to determine whether the system is in "steady state" 
 
 Because of the complexity of the system, a spin-up can be trapped inside a local valley/hilltop similar to:
 
-![Figure 5](https://github.com/changliao/changliao.github.io/blob/main/_figure/global_optimization.png?raw=true)
+![Figure 5](https://github.com/changliao/changliao.github.io/blob/main/_figure/optimization/global_optimization.png?raw=true)
 
 In this case, our "criteria" must be carefully defined, but that is out of the scope of this discussion.
 

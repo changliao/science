@@ -16,7 +16,7 @@ In surface water hydrology, precipitation is one of the most important component
 However, within most hydrology models, it is unclear of how precipitation is actually represented.
 For example, in a typical water cycle illustration from Wiki, precipitation is described as
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/water_cycle.png?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/hydrology/water_cycle.png?raw=true)
 
 Here is the question, what form does precipitation actually take when it falls to land surface?
 Water can be in either liquid (water, rain), solid (ice, snow) or gas (water vapor) forms. How about precipitation? Surely most of time precipitation is either rain of snow. In some cases, it takes form in hail, etc.
@@ -30,6 +30,6 @@ After reviewing some typical surface hydrology model, I decided to use the follo
 This approach uses the maximum and minimum temperature and two parameters to decide the precipitation type.
 When it is a mixture event, a linear method is used estimate the portion of rain or snow in precipitation.
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/snow_or_rain.png?raw=true)
+![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/hydrology/snow_or_rain.png?raw=true)
 
 Copy right of  Purdue University. Please contact me if you want to use this figure. Thanks.

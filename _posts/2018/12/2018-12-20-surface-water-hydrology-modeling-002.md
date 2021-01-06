@@ -17,7 +17,7 @@ modified_time: '2018-12-20T11:35:45.297-08:00'
 Below is a region of interest from Global Lakes and Wetlands Database (link). 
 
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/lake_stream.png?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/hydrology/lake/lake_stream.png?raw=true)
 
 My question is how can we represent them in the Earth System Model?
 

@@ -8,9 +8,6 @@ tags:
 - IDL
 - HPC
 modified_time: '2016-09-17T14:14:06.163-07:00'
-thumbnail: https://4.bp.blogspot.com/-vzSW0w8Y0fU/VjK73hpdVAI/AAAAAAAALsY/rtstYJ0_rXA/s72-c/startup.JPG
-blogger_id: tag:blogger.com,1999:blog-5219825485683920737.post-1671630091818457774
-blogger_orig_url: https://changliao.blogspot.com/2015/10/high-performance-computing-002.html
 ---
 
 One of the advantages of IDL is that it could be deployed on Linux system, to 
@@ -68,7 +65,7 @@ different, but the principle is the same.
 Then, go to the path you specified and create you startup file. A simple 
 example of mine is as follow: 
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/idl_startup.jpg?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/programming/idl/idl_startup.png?raw=true)
 
 
 The most important line within this startup file is the !PATH variable, which 

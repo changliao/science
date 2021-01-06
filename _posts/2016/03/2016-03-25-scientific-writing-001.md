@@ -21,7 +21,7 @@ By image figure, I mean a figure composed of matrix, such as
 https://www.ncdc.noaa.gov/sotc/service/global/map-blended-mntp/201601.gif
 Link of the image.
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/noaa_land_ocean_temperature.png?raw=true)
+![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/visualization/noaa_land_ocean_temperature.png?raw=true)
 
 (A selfie is also an image, but it is not commonly seen in scientific writing. Although the above figure is taken from the website, it is publication-ready in my opinion.)
 
