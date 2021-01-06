@@ -49,3 +49,5 @@ The follow steps may work:
 
 We might be able to add other attributes later if needed.
 
+If possbile, we can implement all the steps within Python without using ArcGIS API.
+
