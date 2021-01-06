@@ -31,4 +31,21 @@ This process can be coded into the Python package as well.
 
 As a start, we can rely on Shapefile for testing purpose.
 
+In the shapefile attribute table, we can add two fields to define the stream segment information.
+* Stream order
+* Stream segment index
+
+Ideally, we can break the whole line feature into parts then re-build the topology.
+
+The follow steps may work:
+1. Merge all flowline together
+2. Merge features into one single feature
+3. Remove erros in line feature, mainly loops
+4. Break into parts
+5. Define outlet (this step might need DEM)
+6. Define segment
+7. Define order
+8. Write into a new shapefile
+
+We might be able to add other attributes later if needed.
 
