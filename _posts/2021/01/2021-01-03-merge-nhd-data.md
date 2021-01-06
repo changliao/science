@@ -50,4 +50,5 @@ The follow steps may work:
 We might be able to add other attributes later if needed.
 
 If possbile, we can implement all the steps within Python without using ArcGIS API.
+However, step 3 requires manual examination, so we can try ArcGIS first. Or we can remove error at step 0, then the following steps can be carried out using Python.
 
