@@ -39,14 +39,19 @@ Ideally, we can break the whole line feature into parts then re-build the topolo
 
 The follow steps may work:
 1. Remove erros in line feature, mainly loops
-    * loop
+  * loop
+
     ![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/flowline_loop.png?raw=true)
 
-    * short path
+  * short path
+
     ![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/short_path.png?raw=true)
 2. Merge all flowline together
 3. Merge features into one single feature
 4. Break into parts
+
+  * ![Feature to line](https://desktop.arcgis.com/en/arcmap/10.3/tools/data-management-toolbox/feature-to-line.htm)
+  
 5. Define outlet (this step might need DEM)
 6. Define segment
 7. Define order
