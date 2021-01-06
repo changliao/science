@@ -22,9 +22,9 @@ The first thing as a watershed hydrologist will usually do is to look at the str
 
 However, both our method and the previous method can produce similar stream segment results. The the question is how can we say which one is better than the other one.
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/hexwatershed/stream_networks_evaluation.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/stream_networks_evaluation.png?raw=true)
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/hexwatershed/depression_filling_algorithm.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/depression_filling_algorithm.png?raw=true)
 
 So we did some research online, and most publications used visual results as proof. Basically,  we literally "see" the differences between different models.
 

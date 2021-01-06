@@ -18,7 +18,7 @@ In general, data management is an important process in all scientific research a
 
 Data management itself can be a project from my perspective, especially when you have to deal with massive amount of data across different platforms.
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/hpc/file_tree.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/hpc/file_tree.png?raw=true)
 
 In my case, I need to manage different types of data under different environments, I will first introduce the data formats that I am dealing with, then I will introduce the file system that will be used to manage the data.
 

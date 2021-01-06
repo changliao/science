@@ -30,7 +30,7 @@ And why this is not implemented in groundwater modeling? Also what plays a facto
 
 The following figure is retrieved from watershed delineation process. So will it become an issue that there are a few pixels that belong to 8 neighbor, but not 4 neighbor?
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/hexwatershed/d8_problem.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/d8_problem.png?raw=true)
 
 Certainly in surface water hydrology, water flow can be like this. But for groundwater modeling, this is usually not allowed if this type of pixels are on the boundary. 
 

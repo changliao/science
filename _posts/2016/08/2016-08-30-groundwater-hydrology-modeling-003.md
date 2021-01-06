@@ -31,7 +31,7 @@ Fifth, groundwater upwelling or stream leakage. This is the process stream water
 
 Below is an example of simulation stream discharge rates VS observed ones.
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/verification_scatter.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/verification_scatter.png?raw=true)
 
 
 

@@ -22,7 +22,7 @@ If you prefer to use open source alternatives, you can try Doxygen. It may be al
 
 Below is an example my current ecosystem model structure:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/eco3d/classecosystem__coll__graph.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/eco3d/classecosystem__coll__graph.png?raw=true)
 
 
 

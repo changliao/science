@@ -20,27 +20,27 @@ For example, the AMSR-E/Aqua L3 Global Snow Water Equivalent EASE-Grids cannot b
 https://nsidc.org/data/docs/daac/ae_swe_ease-grids.gd.html
 Please refer this website for projection information.
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/gis/spatial_extraction01.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/gis/spatial_extraction01.png?raw=true)
 
 Fortunately, ArcMap can do a better job in this scenario.
 You can use the project tool just like any other operations.
 
 
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/gis/spatial_extraction02.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figure/gis/spatial_extraction02.png?raw=true)
 
 In order to re-project lot of data using ArcObject, I have updated a ArcTool, which is basically a batch mode data operation toolkit. For this task, the screenshot is as follow:
 
 
 
-![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/gis/spatial_extraction03.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figure/gis/spatial_extraction03.png?raw=true)
 
 
 Below is the result:
 
 
 
-![Figure 4](https://github.com/changliao/changliao.github.io/blob/main/_figure/gis/spatial_extraction04.png?raw=true)
+![Figure 4](https://github.com/changliao/science/blob/main/_figure/gis/spatial_extraction04.png?raw=true)
 
 
 

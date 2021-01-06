@@ -21,7 +21,7 @@ I will provide more information on this topic in the coming months.
 There are a few processes need to be simulated following the path of DOC.
 
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figureeco3d/stream_doc_transport.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figureeco3d/stream_doc_transport.png?raw=true)
 
 
 DOC production, consumption, and transportation on surface (mainly in litter);

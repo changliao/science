@@ -36,17 +36,17 @@ For example, the area at different regions are not the same. For example. a 0.5*
 To illustrate the difference, let's use a classical 2D heat equation I found from here:
 First, we run the simulation with the uniformly dx = dy, which present longitude and latitude in our case. The results are like this:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/hexwatershed/spatial_distortion01.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/spatial_distortion01.png?raw=true)
 
 
 Then we changed to dy = 2 dx: 
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/hexwatershed/spatial_distortion02.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/spatial_distortion02.png?raw=true)
 
 
 Last, we changed to dx = 2 dy:
 
-![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/hexwatershed/spatial_distortion03.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figure/hexwatershed/spatial_distortion03.png?raw=true)
 
 
 If you look closer, you will see the differences. When the grid geometry is not uniform, the simulated heat distribution is also not uniform in spatial.

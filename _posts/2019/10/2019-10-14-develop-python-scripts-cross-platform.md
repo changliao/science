@@ -20,7 +20,7 @@ Another issue is that I often need to write and run code cross platform/cluster.
 
 In my early attempt, I put everything into a package and use the following method to use them in any source code:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/programming/python/python01.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/programming/python/python01.png?raw=true)
 
 
 
@@ -34,14 +34,14 @@ So I am on a new quest to fix it.
 After digging a little bit, I was able to find a better solution. So instead of defining these system wide or global variables in production code, I can place them into a standalone module.
 After that, I only need to import them using 3 or 4 lines:
 
-![Figure 2](https://github.com/changliao/changliao.github.io/blob/main/_figure/programming/python/python02.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figure/programming/python/python02.png?raw=true)
 
 
 
 The magic here is that I added one single line in my bash profile.
 With the combination of environment variable "PATH" and Python sys.path, I was able to import all the global variables using one single module.
 
-![Figure 3](https://github.com/changliao/changliao.github.io/blob/main/_figure/programming/python/python03.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figure/programming/python/python03.png?raw=true)
 
 With that, I can significantly reduce and clean up the code I wrote for several projects. Also, if I need to change something, I only need to change the library, nothing else.
 Problem solved.

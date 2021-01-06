@@ -18,7 +18,7 @@ Today I want to introduce a very effective framework to conduct a hydrologic mod
 
 Here is the framework:
 
-![Figure 1](https://github.com/changliao/changliao.github.io/blob/main/_figure/pypest/pypest_interface.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/pypest/pypest_interface.png?raw=true)
 
 Let me explain what is going on:
 
