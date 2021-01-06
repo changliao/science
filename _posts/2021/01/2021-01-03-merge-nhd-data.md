@@ -50,7 +50,7 @@ The follow steps may work:
 3. Merge features into one single feature
 4. Break into parts
 
-  * ![Feature to line](https://desktop.arcgis.com/en/arcmap/10.3/tools/data-management-toolbox/feature-to-line.htm)
+  * [Feature to line](https://desktop.arcgis.com/en/arcmap/10.3/tools/data-management-toolbox/feature-to-line.htm)
   
 5. Define outlet (this step might need DEM)
 6. Define segment
