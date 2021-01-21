@@ -1,6 +1,6 @@
 ---
 title: 'Merge hydrography from different sources'
-date: 2020-10-12
+date: 2021-01-03
 permalink: /posts/2021/01/03/merge-nhd-data/
 excerpt: Merge hydrography data from different sources using Python and GDAL.
 author: Chang Liao
