@@ -37,4 +37,5 @@ when a grid has multiple segment, how to define priority?
 * confluence first
 * Longest path possible (using edge vertex)
 
-
+Can we ignore short flowline?
+![Figure 4](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline4.png?raw=true)
