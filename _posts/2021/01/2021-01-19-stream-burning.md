@@ -42,3 +42,7 @@ Can we ignore short flowline?
 If they are removed, do we need to merge the remaining two segments as one?
 
 We cannot create discontinuity after simplification.
+
+
+How about this one?
+![Figure 5](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline5.png?raw=true)
