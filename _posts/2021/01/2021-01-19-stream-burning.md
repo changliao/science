@@ -60,3 +60,5 @@ Ultimately, if the stream flowline topology can be simplified and burned into me
 If full topology is available, when a grid searches for upslope, it must loop through by stream order, then to land. It will won't resolve issue illustrated in the green rectangle easily (We may break some flowline features again).
 
 Overall, it is likely we should generate topology before actual filling, which may simplify some processes significantly.
+
+Meanwhile, building the topology also has two approaches, by stream order or by stream segment. In general, using stream segment requires more iterations but may be easier to control. And using stream order could add additional complexity.
