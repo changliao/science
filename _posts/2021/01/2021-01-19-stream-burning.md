@@ -13,7 +13,6 @@ tags:
 Can we teach the algorithm as smart as human?
 
 
-
 ![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline1.png?raw=true)
 
 
