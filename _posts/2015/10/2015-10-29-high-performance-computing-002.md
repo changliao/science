@@ -24,6 +24,7 @@ page](http://www.umbc.edu/hpcf/hpc-archived/Running%20IDL%20on%20HPC.html)
 first. 
 Some core idea is as follow: 
 
+```
 #!/bin/bash 
 : The above line tells Linux to use the shell /bin/bash to execute 
 : this script. That must be the first line in the script. 
@@ -36,12 +37,13 @@ Some core idea is as follow:
 #PBS -q low_priority 
 #PBS -l nodes=1:ppn=4 
 #PBS -m bea 
-
 : Change the current working directory to the directory from which you ran 
 qsub: 
 cd $PBS_O_WORKDIR 
 : Run IDL and tell it to execute the "main" procedure: 
 idl -e main 
+```
+
 Above is an example to submit an IDL job into the query using PBS. 
 For more info about PBS, go to 
 
