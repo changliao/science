@@ -19,9 +19,6 @@ Basically of course you can use X-Windows and IDLDE like what you did in
 Windows system. 
 But that is NOT what I am about to cover in this discussion. 
 
-Before I start, you properly could refer to [this 
-page](http://www.umbc.edu/hpcf/hpc-archived/Running%20IDL%20on%20HPC.html) 
-first. 
 Some core idea is as follow: 
 
 ```
