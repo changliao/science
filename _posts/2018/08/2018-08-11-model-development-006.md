@@ -1,5 +1,4 @@
 ---
- 
 title: The problem of geographic coordinate system in global scale simulation
 date: '2018-08-11T14:13:00.000-07:00'
 permalink: /posts/2018/08/11/geographic-coordinate-system/
@@ -24,7 +23,8 @@ The reason why there are so many different ways to represent the Earth is that E
 
 So these are some basic GIS knowledge but you can also learn it from this video.
 
-https://youtu.be/kIID5FDi2JQ
+![Why all world maps are wrong](https://youtu.be/kIID5FDi2JQ)
+
 
 While it is generally OK to view these types of global map for daily usage, it can cause problems for large scale to global scale simulations.
 
@@ -36,17 +36,17 @@ For example, the area at different regions are not the same. For example. a 0.5*
 To illustrate the difference, let's use a classical 2D heat equation I found from here:
 First, we run the simulation with the uniformly dx = dy, which present longitude and latitude in our case. The results are like this:
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/spatial_distortion01.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figure/dggs/spatial_distortion01.png?raw=true)
 
 
 Then we changed to dy = 2 dx: 
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/spatial_distortion02.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figure/dggs/spatial_distortion02.png?raw=true)
 
 
 Last, we changed to dx = 2 dy:
 
-![Figure 3](https://github.com/changliao/science/blob/main/_figure/hexwatershed/spatial_distortion03.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figure/dggs/spatial_distortion03.png?raw=true)
 
 
 If you look closer, you will see the differences. When the grid geometry is not uniform, the simulated heat distribution is also not uniform in spatial.
