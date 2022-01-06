@@ -1,6 +1,5 @@
 ---
- 
-title: 'Ecosystem modeling: creating hierarchical class dependency maps'
+title: Ecosystem modeling: creating hierarchical class dependency maps
 date: '2016-05-29T09:09:00.000-07:00'
 permalink: /posts/2016/05/29/dependency-map
 author: Chang Liao
