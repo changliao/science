@@ -23,7 +23,7 @@ The reason why there are so many different ways to represent the Earth is that E
 
 So these are some basic GIS knowledge but you can also learn it from this video.
 
-![Why all world maps are wrong](https://youtu.be/kIID5FDi2JQ)
+Why all world maps are wrong: https://youtu.be/kIID5FDi2JQ
 
 
 While it is generally OK to view these types of global map for daily usage, it can cause problems for large scale to global scale simulations.

@@ -5,7 +5,6 @@ permalink: /posts/2016/05/29/dependency-map
 author: Chang Liao
 tags:
 - CLM
-modified_time: '2018-04-03T12:23:57.732-07:00'
 
 
 Having a visual class dependency map could significantly help you to better understand the structure of a complex ecosystem model. For example, a group in University of Tennessee published a web-based structure tree of the Community Land Model.
