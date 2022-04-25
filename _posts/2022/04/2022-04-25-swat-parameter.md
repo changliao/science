@@ -1,7 +1,7 @@
 ---
  
 title: Spatial variability of the SWAT model parameter
-date: '2018-11-20T10:29:00.000-08:00'
+date: '2022-04-25'
 permalink: /posts/2022/04/25/swat-parameter/
 author: Chang Liao
 tags:
