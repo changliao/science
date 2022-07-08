@@ -1,7 +1,7 @@
 ---
  
 title: Break the model
-date: '2022-01-02'
+date: '2022-07-08'
 permalink: /posts/2022/07/08/break-the-model
 author: Chang Liao
 tags:
