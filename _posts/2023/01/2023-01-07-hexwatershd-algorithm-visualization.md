@@ -20,7 +20,7 @@ The mix of two distinct algorithms under the same umbrella leads to a level of c
 
 A visualization of the algorithms is essential to diagnose and understand the model. 
 
-In the early stage of HexWatershed development, I was also inspired by [RedBlog by Amit](https://www.redblobgames.com/grids/hexagons/). 
+In the early stage of HexWatershed development, I was also inspired by [RedBlogGames by Amit](https://www.redblobgames.com/grids/hexagons/). 
 
 The interactive visualization is helpful for some algorithm design and implementation. Since I am not familiar with those web-based interactive visualization, I decided to use Python as a start.
 
@@ -45,6 +45,7 @@ Besides, two texts are placed at the active cell left and right. If the right si
 At the end of the animation, you will notice there are several holes, or islands. They are peaks/summit. The algorithm will still perform although the domain is broken into several parts.
 
 Next, below is zoom-in view following the algorithm.
+
 ![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/priority_flood_track.gif?raw=true)
 
 Email me if you have any questions.
