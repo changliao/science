@@ -1,7 +1,7 @@
 ---
 title: Visualization of the priority flood algorithm within HexWatershed
 date: '2023-01-07'
-permalink: /posts/2022/07/08/visualization-priority-flood
+permalink: /posts/2023/01/07/visualization-priority-flood
 author: Chang Liao
 tags:
 - Visualization
