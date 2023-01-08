@@ -20,7 +20,7 @@ The mix of two distinct algorithms under the same umbrella leads to a level of c
 
 A visualization of the algorithms is essential to diagnose and understand the model. 
 
-In the early stage of HexWatershed development, I was also inspired by [RedBlogGames by Amit](https://www.redblobgames.com/grids/hexagons/). 
+In the early stage of HexWatershed development, I was also inspired by [RedblobGames by Amit](https://www.redblobgames.com/grids/hexagons/). 
 
 The interactive visualization is helpful for some algorithm design and implementation. Since I am not familiar with those web-based interactive visualization, I decided to use Python as a start.
 
