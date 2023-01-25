@@ -20,9 +20,9 @@ Then what makes the model `mesh independent`? Both models were designed in a way
 
 | Feature      | What if without | Relation|
 | ----------- | ----------- |----------- |
-| Mesh independent      | Cannot couple river and other hydrologic features  |  Does not concern topological relationship |
+| Mesh independent      | Cannot couple river and other hydrologic features  |  Does not concern topological relationship, but it helps capture details |
 | Topological relationship   | Cannot assist stream burning  |  Supports unstructured mesh by default |
 
-For PyFlowline alone, topological relationship may be more important because it is how the model capture the river network.
+For PyFlowline alone, topological relationship may be more important because it is how the model capture the river network. However, with the mesh independent, it is possible to use refined mesh near river to capture river features. To this extend, mesh independent enhances the model.
 
 For HexWatershed, as long as the river networks are available, the topological relationship only improve river bed slope. Thus the mesh independent may be more important.
