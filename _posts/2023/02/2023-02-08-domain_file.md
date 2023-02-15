@@ -36,3 +36,21 @@ For unstructured mesh, we can set `nj` or `ni` as 1.
 
 
 ### Differences between global and local domain files
+
+`ATM_DOMAIN_FILE` and `ATM_DOMAIN_PATH`
+
+        <entry id="ATM_DOMAIN_FILE">
+          <type>char</type>
+          <default_value>UNSET</default_value>
+          <group>run_domain</group>
+          <file>env_run.xml</file>
+          <desc>atm domain file</desc>
+        </entry>
+        
+        <entry id="ATM_DOMAIN_PATH">
+          <type>char</type>
+          <default_value>$DIN_LOC_ROOT/share/domains</default_value>
+          <group>run_domain</group>
+          <file>env_run.xml</file>
+          <desc>path of atm domain file</desc>
+        </entry>
