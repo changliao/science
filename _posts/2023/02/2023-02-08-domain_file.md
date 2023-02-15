@@ -23,3 +23,16 @@ The cell center is either a 1D (unstructured) or 2D (structured) array.
 As a result, the vertices can be a 2D or 3D (structured) array. In practice, the vertices array often uses the (nj, ni, nv) structures to store the data.
 
 For unstructured mesh, we can set `nj` or `ni` as 1.
+
+### Different types of domain files
+
+## ELM surface data
+
+`gen_domain to create a domain file for datm from a mapping file. The domain file is then used by BOTH DATM AND CLM to define the grid and land-mask.`
+
+
+
+## Stream file 
+
+
+### Differences between global and local domain files
