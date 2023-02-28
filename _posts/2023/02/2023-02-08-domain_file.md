@@ -16,7 +16,7 @@ However, I found quite some documentation on how to generate this domain file, s
 
 Without looking at the official documentation, the only way to understand the structure of the domain file is through existing files and possibly code.
 
-In general, the domain file stores the information of mesh cells, including cell center, vertics, and area.
+In general, the domain file stores the information of mesh cells, including cell center, vertices, and area.
 
 The cell center is either a 1D (unstructured) or 2D (structured) array.
 
