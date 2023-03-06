@@ -26,5 +26,5 @@ The last challenge is how to consider the human factor, including agriculture, a
 
 There is also a dependency relationship between these challenges. For example, without improving the representation of the natural system, there will be large uncertainty in the human factor. 
 
-In ESM, we need to all the above three challenges all together to have a better understanding of the water cycle.
+In ESM, we need to consider all the above three challenges all together to have a better understanding of the water cycle.
 
