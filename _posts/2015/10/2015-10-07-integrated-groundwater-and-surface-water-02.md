@@ -21,7 +21,7 @@ Here I have provided an examples how it could be done using some scripts and Arc
 After the drainage line is defined from watershed delineation process such as using Arc Hydro tool.
 The resulting attribute table will be like this:
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hydrology/drainageline.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hydrology/drainageline.png?raw=true)
 
 
 
@@ -33,13 +33,13 @@ After this, the spatial relationship is restored but not sorted in the attribute
 
 
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/hydrology/field_sort.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/hydrology/field_sort.png?raw=true)
 
 
 
 The final attribute table will be like this:
 
-![Figure 3](https://github.com/changliao/science/blob/main/_figure/hydrology/sort_table.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figures/hydrology/sort_table.png?raw=true)
 
 Well done! This attribute table is ready for other operations.
 

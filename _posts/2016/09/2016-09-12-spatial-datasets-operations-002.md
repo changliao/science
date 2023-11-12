@@ -32,14 +32,14 @@ There are quite a few tools available to operate on HDF files, but most of them 
 
 The first step is to extract the datasets from HDF, and we also need to define the projection as exactly the same with HDF. Below is a very simple way to do so. You can use ArcMap to open one single HDF file and output the datasets as TIFF or other raster datasets formats.
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/gis/modis01.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/gis/modis01.png?raw=true)
 
 
 Fig 1. Convert result from HDF to GeoTIFF in ArcMap 10.1.
 
 Unfortunately, ENVI doesn't support all the MODIS product quite well so far. And the map projection cannot be read after the conversion using ArcMap, see below.
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/remote_sensing/modis02.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/remote_sensing/modis02.png?raw=true)
 
 Fig 2. File viewing in ENVI 5.1 of the same file.
 

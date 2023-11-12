@@ -18,7 +18,7 @@ Therefore, I have designed a protocol with workflow to resolve these issues.
 * It provides a checkpoint feature, so it can restart if something went wrong;
 * It supports automate resubmit if the Walltime is not enough.
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hpc/data_analysis_mpi.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hpc/data_analysis_mpi.png?raw=true)
 
 
 There are several implementations depending on the system. For example, on the SLURM system, a recurring job method can be used.

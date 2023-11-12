@@ -17,31 +17,31 @@ But when we decided to try this on a different mesh grid, a lot of details start
 
 The overall workflow is pretty simple:
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/hexwatershed_workflow.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/hexwatershed_workflow.png?raw=true)
 
 But because the grid is different, we made several improvements.
 First,  we need a new index system, and we need to rebuild the neighbor information.
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/hexagon_topology.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/hexwatershed/hexagon_topology.png?raw=true)
 
 
 We also need to do the depression filling, here we used the priority flooding method. This method is pretty impressive in this application. Without getting into details, this is how it works:
-![Figure 3](https://github.com/changliao/science/blob/main/_figure/hexwatershed/hexagon_flood_legend.gif?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figures/hexwatershed/hexagon_flood_legend.gif?raw=true)
 
 
 After this, we are able to calculate the flow direction, for example:
 
-![Figure 4](https://github.com/changliao/science/blob/main/_figure/hexwatershed/cbf_flow_direction_90_zoom.png?raw=true)
+![Figure 4](https://github.com/changliao/science/blob/main/_figures/hexwatershed/cbf_flow_direction_90_zoom.png?raw=true)
 
 As well as flow accumulation:
 
-![Figure 5](https://github.com/changliao/science/blob/main/_figure/hexwatershed/tinpan_flow_accumulation_30_zoom.png?raw=true)
+![Figure 5](https://github.com/changliao/science/blob/main/_figures/hexwatershed/tinpan_flow_accumulation_30_zoom.png?raw=true)
 
 Last, I'd like to illustrate how this method fixes some headache for many of us:
 
-![Figure 6](https://github.com/changliao/science/blob/main/_figure/hexwatershed/tinpan30_square.png?raw=true)
+![Figure 6](https://github.com/changliao/science/blob/main/_figures/hexwatershed/tinpan30_square.png?raw=true)
 
-![Figure 7](https://github.com/changliao/science/blob/main/_figure/hexwatershed/tinpan30_hexagon.png?raw=true)
+![Figure 7](https://github.com/changliao/science/blob/main/_figures/hexwatershed/tinpan30_hexagon.png?raw=true)
 
 
 If you are interested in using or applying this method in your study area or hydrologic model, stay tuned.
