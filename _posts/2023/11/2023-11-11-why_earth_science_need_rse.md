@@ -1,5 +1,5 @@
 ---
-title: Issue in land river coupling in E3SM
+title: What prevent us from learning new programming skills
 date: '2023-11-11'
 permalink: /posts/2023/11/11/why_earth_science_need_programming_training
 author: Chang Liao
