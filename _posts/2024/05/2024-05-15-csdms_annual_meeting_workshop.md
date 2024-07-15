@@ -1,6 +1,6 @@
 ---
 title: Mesh-independent flow direction modeling using HexWatershed 3.0
-date: '2023-03-02'
+date: '2024-05-15'
 permalink: /posts/2024/05/15/mesh-independent-flow-direction-modeling-using-hexWatershed-3
 author: Chang Liao
 tags:
