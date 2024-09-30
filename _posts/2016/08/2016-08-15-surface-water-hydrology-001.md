@@ -23,6 +23,6 @@ http://water.usgs.gov/edu/streamflow3.html
 
 Based on these relations, a simple test was run to illustrate and estimate the discharge based on gage height.
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/stream_discharge_height.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/stream_discharge_height.png?raw=true)
 
 Figure 1. Gage height-discharge relation curve. The blue crosses are observed gage height-discharge data. The red crosses are calculated after "parameter estimation" using curve fitting method.

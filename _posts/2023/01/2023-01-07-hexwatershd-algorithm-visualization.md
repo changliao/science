@@ -28,7 +28,7 @@ In this post, I provide a visualization of the stream-burning built-in priority 
 
 First, below is animation of how HexWatershed processes the elevation of each MPAS cell. 
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/priority_flood.gif?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/priority_flood.gif?raw=true)
 
 This animation is not meant to demonstrate the results of depression-filling, but instead focuses on how the algorithm processes the domain cell by cell. In general, there are two major steps:
 
@@ -46,7 +46,7 @@ At the end of the animation, you will notice there are several holes, or islands
 
 Next, below is zoom-in view following the algorithm.
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/priority_flood_track.gif?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/priority_flood_track.gif?raw=true)
 
 Email me if you have any questions.
 

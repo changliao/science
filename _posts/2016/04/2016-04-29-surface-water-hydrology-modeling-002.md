@@ -17,7 +17,7 @@ Below is an example how the scale issue could be a potential problem for the sim
 First, I would like to introduce the CRT. Cascade Routing Tool (CRT) is a computer application for watershed models that include the coupled Groundwater and Surface-water FLOW model GSFLOW and the Precipitation-Runoff Modeling System (PRMS). More information could be found at (http://water.usgs.gov/ogw/CRT/)
 The example run result is listed as:
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/eco3d/crt_cascade.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/eco3d/crt_cascade.png?raw=true)
 
 
 
@@ -27,13 +27,13 @@ The next step, the subbasin was delineated using stream line and DEM datasets. N
 
 
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/gis/subbasin.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/gis/subbasin.png?raw=true)
 
 We are already able to see the potential problem in the above result. The stream line may lies in one grid but the majority of that grid contribute to another subbasin. Could that be a problem? Then, in order to determine which HRU or grid contribute to which stream segment, the rasterization operation is conducted on the subbasin feature, which is the result from watershed delineation.
 We have:
 
 
-![Figure 3](https://github.com/changliao/science/blob/main/_figure/gis/subbasin2.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figures/gis/subbasin2.png?raw=true)
 
 
 The algorithm of rasterization most likely classify grids based on area. And therefore the stream line would cut into neighbors in some cases.

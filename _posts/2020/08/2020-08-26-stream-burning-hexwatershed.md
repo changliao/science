@@ -13,7 +13,7 @@ This is a follow up study of HexWatershed. In the latest development, we decided
 A details explanation of the motivation will be discussed in our new paper. Here I will only focus on some critical issues in the development.
 
 The first issue is: what happens if the outlet is not at the edge?
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/outlet_burning.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/outlet_burning.png?raw=true)
 
 
 One of the core processes to conduct priority-flood filling or breaching is that if a grid cell is processed, it will not be processed again because a mask is used to keep track all the history.

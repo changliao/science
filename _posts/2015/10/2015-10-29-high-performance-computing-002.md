@@ -63,7 +63,7 @@ different, but the principle is the same.
 Then, go to the path you specified and create you startup file. A simple 
 example of mine is as follow: 
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/programming/idl/idl_startup.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/programming/idl/idl_startup.png?raw=true)
 
 
 The most important line within this startup file is the !PATH variable, which 

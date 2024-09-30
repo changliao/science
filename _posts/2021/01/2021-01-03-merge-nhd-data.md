@@ -41,11 +41,11 @@ The follow steps may work:
 1. Remove erros in line feature, mainly loops
   * loop
 
-    ![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/flowline_loop.png?raw=true)
+    ![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/flowline_loop.png?raw=true)
 
   * short path
 
-    ![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/short_path.png?raw=true)
+    ![Figure 2](https://github.com/changliao/science/blob/main/_figures/hexwatershed/short_path.png?raw=true)
 2. Merge all flowline together
 3. Merge features into one single feature
 4. Break into parts

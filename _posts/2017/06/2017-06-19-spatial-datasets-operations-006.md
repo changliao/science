@@ -14,7 +14,7 @@ modified_time: '2018-04-03T12:17:22.750-07:00'
 After finished my three-dimensional coupled water and carbon cycle model, I have been thinking whether I can apply this approach at large spatial domain or even global scale.
 During this process, I realized that most (or all) global scale land surface modeling work are based on the square grid system, which is widely used in Earth science. This grid is also common recognized as pixel, grid cell.
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/polar.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/polar.png?raw=true)
 
 Can we still use grid in global scale land surface model simulation?
 Yes and no. If you do not consider lateral flow, then interactions between grid cells are omitted. In this scenario, grid cell might be the easiest approach to do so.

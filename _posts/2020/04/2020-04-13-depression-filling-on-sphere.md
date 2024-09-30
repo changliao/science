@@ -16,7 +16,7 @@ I want to provide some background, we are not using traditional square mesh to c
 
 On a sphere, land/continents are not continuous, a landmass may be broken into several islands.
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/dual_island.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/dual_island.png?raw=true)
 
 Because of the unique structure of hexagon mesh, parallel computing becomes difficult. It is not straightforward to decompose the global mesh into regular tiles similar to square grid mesh.
 DEM remap/resamaple method needs to be improved. Current DEM dataset is still in the square grid format, a rigorous remap method is needed to assign elevation to new hexagon grids.

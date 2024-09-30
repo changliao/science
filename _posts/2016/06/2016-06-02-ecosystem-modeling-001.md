@@ -20,7 +20,7 @@ In another word, the feedback among different processes are often too complex th
 The reason is that our computer simulation MUST have a starting point and a sequence of algorithms in order to run the simulation.
 For some well-designed models, the differences between different starting points are not significant when using the numerical approach. However, it is a best practice to put all the algorithms in the right orders.
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/elm/clm_process.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/elm/clm_process.png?raw=true)
 
 
 

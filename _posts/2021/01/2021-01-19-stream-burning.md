@@ -13,11 +13,11 @@ tags:
 Can we teach the algorithm as smart as human?
 
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline1.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/flowline1.png?raw=true)
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline2.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/flowline2.png?raw=true)
 
-![Figure 3](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline3.png?raw=true)
+![Figure 3](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/flowline3.png?raw=true)
 
 Some un-confirmed workflow:
 
@@ -33,19 +33,19 @@ when a grid has multiple segment, how to define priority?
 * Longest path possible (using edge vertex)
 
 Can we ignore short flowline?
-![Figure 4](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline4.png?raw=true)
+![Figure 4](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/flowline4.png?raw=true)
 If they are removed, do we need to merge the remaining two segments as one?
 
 We cannot create discontinuity after simplification.
 
 
 How about this one?
-![Figure 5](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline5.png?raw=true)
+![Figure 5](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/flowline5.png?raw=true)
 
 
 An upgraded version of stream burning is able to resolve some issues.
 
-![Figure 6](https://github.com/changliao/science/blob/main/_figure/hexwatershed/algorithm/flowline6.png?raw=true)
+![Figure 6](https://github.com/changliao/science/blob/main/_figures/hexwatershed/algorithm/flowline6.png?raw=true)
 
 * First, the zig-zag pattern in red rectangle shows the topology information can be preserved on main channel
 * Second, the yellow rectangle shows that threshold is important if we don't have topology in low order streams

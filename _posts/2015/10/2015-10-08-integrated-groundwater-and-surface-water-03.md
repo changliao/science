@@ -28,14 +28,14 @@ Imagine a cheese cake with multi-layers, if it is placed on the table, no matter
 
 
 
-![Figure 1](https://github.com/changliao/science/blob/main/_figure/numerical/spatial_discretization1.png?raw=true)
+![Figure 1](https://github.com/changliao/science/blob/main/_figures/numerical/spatial_discretization1.png?raw=true)
 
 
 However, if we lean the table to certain angle and consider the pieces are adjusted to sit vertically in their same positions, the system may changes dramatically: the top layer on the higher position no longer touch others; the cheese in the lower layer may mix the neighbor cake layer!
 
 
 
-![Figure 2](https://github.com/changliao/science/blob/main/_figure/numerical/spatial_discretization2.png?raw=true)
+![Figure 2](https://github.com/changliao/science/blob/main/_figures/numerical/spatial_discretization2.png?raw=true)
 
 
 So what might be the solution? We need better space discretization to minimize the space distortion.
